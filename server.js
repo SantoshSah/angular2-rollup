@@ -1,6 +1,6 @@
 "use strict";
 // server.js
-
+const compression = require('compression');
 const express = require('express');
 const http = require('http');
 const https = require('https');
@@ -77,6 +77,7 @@ if ( env === 'dev' ) {
 
 // Express Middleware
 
+app.use(compression());
 
 
 // Load Modules

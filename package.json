@@ -87,6 +87,7 @@
     "clean-css": "^4.0.12",
     "clim": "^1.1.1",
     "codelyzer": "^3.0.0",
+    "compression": "^1.6.2",
     "concurrently": "^3.0.0",
     "core-js": "^2.4.1",
     "cssnano": "^3.8.0",

@@ -14,7 +14,6 @@ import { HomeModule } from './shared/components/home/home.module';
                BrowserAnimationsModule,
                HttpModule,
                CommonModule,
-               FormsModule,
                HomeModule,
                routing],
     declarations: [ AppComponent ],

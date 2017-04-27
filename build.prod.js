@@ -91,6 +91,11 @@ const compile = {
 
     },
 
+    optimize: () => {
+      exec('tar -zcvf build/bundle.tar.gz build/bundle.js');
+      log(colors.green('bundle.tar.gz'), 'is', colors.green('ready'));
+    },
+
     src : () => {
 
         isCompiling = true;
@@ -120,7 +125,7 @@ const compile = {
                           } else {
                             log(colors.green('Build'), 'is', colors.green('ready'));
                           }
-                          //compile.clean();
+                          compile.optimize();
                           isCompiling = false;
                           hasInit = true;
                      });
