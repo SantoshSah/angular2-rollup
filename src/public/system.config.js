@@ -22,6 +22,7 @@
       '@angular/http': 'lib:@angular/http/bundles/http.umd.js',
       '@angular/router': 'lib:@angular/router/bundles/router.umd.js',
       '@angular/forms': 'lib:@angular/forms/bundles/forms.umd.js',
+      '@angular/material': 'lib:@angular/material/bundles/material.umd.js',
       // other libraries
       'rxjs': 'lib:rxjs'
     },
